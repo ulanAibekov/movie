@@ -1,0 +1,12 @@
+#actor{
+  padding: 60px 0 ;
+  .actor{
+    &--card{
+      margin: 0 20px;
+    &__h5{
+      color: white;
+      font-size: 18px;
+    }
+    }
+  }
+}

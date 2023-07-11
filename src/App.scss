@@ -1,0 +1,31 @@
+@import "components/Header/header";
+@import "components/Home/home";
+@import "components/Footer/footer";
+@import "components/Popular/popular";
+@import "components/Home/home";
+@import "components/TopRated/topRated";
+@import "components/MovieCard/moviCard";
+@import "components/Actor/actor";
+@import "components/Treller/treller";
+@import "Pages/MovieDetails/movieDetails";
+@import "Pages/ActorDetails/actorDetails";
+@import "components/MovieActor/movieActor";
+
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  margin: 0 auto;
+  width: 90%;
+}

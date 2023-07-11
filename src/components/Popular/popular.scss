@@ -1,0 +1,22 @@
+#popular{
+
+  padding: 60px 0 ;
+  .popular {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 38px;
+    button {
+      color: white;
+      background: black;
+      border-radius: 10px;
+      border: 2px solid white;
+      padding: 10px 20px;
+      h3{
+        color: white;
+        font-size: 40px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,78 @@
+#actorDetails{
+  padding: 80px 0 ;
+  .actorDetails{
+    display: flex;
+    gap:60px;
+    &--img{
+      img{
+        cursor: pointer;
+      }
+      &__modal{
+        width: 500px;
+        height: 400px;
+        background: white;
+        position: absolute;
+        top: 20%;
+        padding: 20px 20px;
+        left: 35%;
+        button{
+          cursor: pointer;
+          //background: black;
+          color:black;
+          width: 20px;
+          position: absolute;
+          //border: 1px solid white;
+          right: 20px;
+          font-size: 20px;
+          top: 20px;
+          height: 20px;
+        }
+
+
+      }
+      &__blur{
+        z-index: -1;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+      }
+    }
+    &--title{
+      .expand-button{
+        color: rgba(152, 159, 159, 0.78);
+        background: none;
+        padding: 0 5px;
+      }
+      width: 60%;
+      &__biography {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+      }
+      h1{
+        color: white;
+        font-size: 36px;
+        font-weight: 700;
+      }
+      h3{
+        color: white;
+        padding: 20px 0 ;
+
+      }
+      p{
+        color: white;
+        font-size: 18px;
+        //font-weight: 400;
+      }
+      div{
+        font-size: 16px;
+        li{
+          color: white;
+        }
+      }
+    }
+  }
+}

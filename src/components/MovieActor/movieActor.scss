@@ -1,0 +1,22 @@
+#movieactor {
+  margin: 60px 0;
+
+  .movieactor {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+
+    &--card {
+      margin: 20px 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      h4 {
+        color: white;
+        margin: 20px 0;
+        text-align: center;
+      }
+    }
+  }
+}
